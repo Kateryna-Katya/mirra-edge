@@ -229,3 +229,78 @@ img { max-width: 100%; display: block; }
       opacity: 1 !important; transform: none !important; visibility: visible !important;
   }
 }
+/* --- LEGAL PAGES STYLES --- */
+.pages {
+  background-color: var(--color-bg);
+  min-height: 60vh;
+}
+
+/* Ограничиваем ширину текста для удобства чтения */
+.pages__container {
+  max-width: 800px;
+}
+
+.pages h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 40px;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 20px;
+}
+
+.pages h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--color-text);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.pages p {
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.pages ul {
+  list-style: none;
+  margin-bottom: 24px;
+  padding-left: 10px;
+}
+
+.pages li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+/* Маркеры списка в стиле сайта */
+.pages li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--color-highlight); /* Neo Mint */
+  font-size: 1.5em;
+  line-height: 1;
+  top: -2px;
+}
+
+.pages strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.pages a {
+  color: var(--color-highlight);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: var(--transition);
+}
+
+.pages a:hover {
+  color: var(--color-accent); /* Electric Purple */
+}
