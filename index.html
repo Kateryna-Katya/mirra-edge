@@ -1,114 +1,337 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mirra Edge | Карьерный апгрейд нового поколения</title>
-  <meta name="description" content="Инновационная платформа для роста карьеры. Стратегии, блоги и AI-инструменты.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirra Edge | Карьерный апгрейд нового поколения</title>
+    <meta name="description" content="Инновационная платформа для роста карьеры. Стратегии, блоги и AI-инструменты.">
 
-  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='10' fill='%231a1a1a'/%3E%3Cpath d='M16 4 L20 12 L28 16 L20 20 L16 28 L12 20 L4 16 L12 12 Z' fill='%2300f0ff'/%3E%3C/svg%3E" type="image/svg+xml">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@500;700;800&display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
 
-  <script src="https://unpkg.com/lucide@latest"></script>
     <script type="module" crossorigin src="/mirra-edge/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/mirra-edge/assets/styles-B3d7v9-p.css">
+    <link rel="stylesheet" crossorigin href="/mirra-edge/assets/styles-BlcosfDR.css">
   </head>
   <body>
     <header class="header">
   <div class="container header__container">
-    <a href="/" class="header__logo">
-      Mirra<span class="text-accent">Edge</span>
-    </a>
+      <a href="/" class="header__logo">Mirra<span class="text-accent">Edge</span></a>
 
-    <nav class="header__nav">
-      <ul class="header__list">
-        <li class="header__item"><a href="#" class="header__link">Главная</a></li>
-        <li class="header__item"><a href="#methodology" class="header__link">Методология</a></li>
-        <li class="header__item"><a href="#blog" class="header__link">Блог</a></li>
-        <li class="header__item"><a href="#innovation" class="header__link">Инновации</a></li>
-      </ul>
-    </nav>
+      <nav class="header__nav">
+          <ul class="header__list">
+              <li class="header__item"><a href="#hero" class="header__link">Главная</a></li>
+              <li class="header__item"><a href="#methodology" class="header__link">Методология</a></li>
+              <li class="header__item"><a href="#features" class="header__link">Возможности</a></li>
+              <li class="header__item"><a href="#innovation" class="header__link">Инновации</a></li>
+              <li class="header__item"><a href="#blog" class="header__link">Блог</a></li>
+          </ul>
+          <a href="#contact" class="btn btn--outline mobile-hidden">Связаться</a>
+      </nav>
 
-    <div class="header__actions">
-      <a href="#contact" class="btn btn--outline">Связаться</a>
       <button class="header__burger" aria-label="Menu">
-        <i data-lucide="menu"></i>
+          <i data-lucide="menu"></i>
       </button>
-    </div>
   </div>
 </header>
 
     <main class="main">
       <!-- Loads the specified .html file -->
-      
+      <section id="hero" class="hero section">
+  <div class="container hero__container">
+      <div class="hero__content">
+          <span class="badge">Technology 2025</span>
+          <h1 class="hero__title">
+              Карьера<br>
+              <span class="text-gradient">нового поколения</span>
+          </h1>
+          <p class="hero__subtitle">
+              Передовая цифровая инфраструктура для вашего роста.
+              AI-инструменты и стратегии, которые меняют правила игры уже сегодня.
+          </p>
+          <div class="hero__buttons">
+              <a href="#contact" class="btn btn--primary">Начать сейчас</a>
+              <a href="#methodology" class="btn btn--text">Узнать больше <i data-lucide="arrow-right"></i></a>
+          </div>
+      </div>
+      <div class="hero__visual">
+          <div class="glowing-orb"></div>
+          <img src="img/placeholder.png" alt="Future Interface" class="hero__img">
+      </div>
+  </div>
+</section>
+
+<section id="about" class="about section">
+  <div class="container">
+      <div class="section-header">
+          <h2 class="section-title">Воплотите мечты <span class="text-accent">в реальность</span></h2>
+          <p class="section-desc">Мы не просто учим. Мы даем технологию для пассивного дохода и карьерного рывка.</p>
+      </div>
+      <div class="metrics-grid">
+          <div class="metric-card">
+              <h3 class="metric-num" data-count="98">98%</h3>
+              <p class="metric-label">Успешных запусков</p>
+          </div>
+          <div class="metric-card">
+              <h3 class="metric-num" data-count="24">24/7</h3>
+              <p class="metric-label">Поддержка экспертов</p>
+          </div>
+          <div class="metric-card">
+              <h3 class="metric-num">EU</h3>
+              <p class="metric-label">Платформа доступна в Европе</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="methodology" class="methodology section">
+  <div class="container">
+      <div class="section-header">
+          <h2 class="section-title">Ваш путь к <span class="text-accent">Результату</span></h2>
+          <p class="section-desc">Пошаговая стратегия, превращающая амбиции в работающую систему.</p>
+      </div>
+      <div class="steps-grid">
+          <div class="step-card">
+              <div class="step-number">01</div>
+              <div class="step-content">
+                  <h3>Аудит потенциала</h3>
+                  <p>Глубокий анализ ваших навыков с помощью AI. Мы находим скрытые точки роста за 2 минуты.</p>
+              </div>
+          </div>
+          <div class="step-card">
+              <div class="step-number">02</div>
+              <div class="step-content">
+                  <h3>Персональная стратегия</h3>
+                  <p>Формирование дорожной карты. Вы получаете четкий план действий без "воды".</p>
+              </div>
+          </div>
+          <div class="step-card">
+              <div class="step-number">03</div>
+              <div class="step-content">
+                  <h3>Интеграция инструментов</h3>
+                  <p>Подключение к экосистеме. Доступ к автоматизации и аналитике в реальном времени.</p>
+              </div>
+          </div>
+          <div class="step-card">
+              <div class="step-number">04</div>
+              <div class="step-content">
+                  <h3>Масштабирование</h3>
+                  <p>Выход на новые рынки. Стратегия роста на базе инноваций для пассивного дохода.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="features" class="features section">
+  <div class="container">
+      <div class="features__grid">
+          <div class="feature-card feature-card--large">
+              <i data-lucide="cpu" class="feature-icon"></i>
+              <h3>Инновационная технология</h3>
+              <p>Решения, основанные на AI, автоматизируют рутину и позволяют фокусироваться на главном.</p>
+          </div>
+          <div class="feature-card">
+              <i data-lucide="trending-up" class="feature-icon"></i>
+              <h3>Быстрый старт</h3>
+              <p>Подключение занимает 2 минуты. Легко разобраться без опыта.</p>
+          </div>
+          <div class="feature-card">
+              <i data-lucide="shield-check" class="feature-icon"></i>
+              <h3>Надежность</h3>
+              <p>Проверенный партнер. Полная безопасность данных.</p>
+          </div>
+          <div class="feature-card">
+              <i data-lucide="globe" class="feature-icon"></i>
+              <h3>Масштаб</h3>
+              <p>Расширьте горизонты проекта на международный уровень.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="innovation" class="innovation section">
+  <div class="innovation-bg"></div>
+  <div class="container">
+      <div class="innovation__wrapper">
+          <div class="innovation__text">
+              <span class="badge">Next Gen Core</span>
+              <h2 class="section-title">Технологии,<br>которые <span class="text-gradient">работают на вас</span></h2>
+              <p class="section-desc">
+                  Мы используем нейросети последнего поколения для анализа рынка и автоматизации рутины.
+                  Это не будущее. Это стандарт Mirra Edge.
+              </p>
+              <ul class="innovation__list">
+                  <li><i data-lucide="cpu"></i> Нейросетевой анализ трендов</li>
+                  <li><i data-lucide="zap"></i> Мгновенная генерация стратегий</li>
+                  <li><i data-lucide="lock"></i> Шифрование военного уровня</li>
+              </ul>
+              <a href="#contact" class="btn btn--primary" style="margin-top: 30px;">Получить демо</a>
+          </div>
+
+          <div class="innovation__grid">
+              <div class="tech-card">
+                  <i data-lucide="brain-circuit" class="tech-icon"></i>
+                  <h4>Neural Core</h4>
+                  <p>Адаптивный интеллект</p>
+              </div>
+              <div class="tech-card">
+                  <i data-lucide="bar-chart-4" class="tech-icon"></i>
+                  <h4>Live Data</h4>
+                  <p>Аналитика 24/7</p>
+              </div>
+              <div class="tech-card">
+                  <i data-lucide="globe-2" class="tech-icon"></i>
+                  <h4>Global Reach</h4>
+                  <p>Доступ из любой точки</p>
+              </div>
+              <div class="tech-card">
+                  <i data-lucide="layers" class="tech-icon"></i>
+                  <h4>Auto Scale</h4>
+                  <p>Автоматизация</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="blog" class="blog section">
+  <div class="container">
+      <h2 class="section-title">Инсайты и <span class="text-accent">Тренды</span></h2>
+      <div class="blog__grid">
+          <article class="blog-card">
+              <div class="blog-card__img">
+                  <img src="img/placeholder.png" alt="AI Trends">
+              </div>
+              <div class="blog-card__content">
+                  <span class="blog-date">12.10.2025</span>
+                  <h3>Как AI меняет рынок труда?</h3>
+                  <a href="#" class="blog-link">Читать статью</a>
+              </div>
+          </article>
+          <article class="blog-card">
+              <div class="blog-card__img">
+                  <img src="img/placeholder.png" alt="Career Strategy">
+              </div>
+              <div class="blog-card__content">
+                  <span class="blog-date">08.10.2025</span>
+                  <h3>Стратегия роста на базе инноваций</h3>
+                  <a href="#" class="blog-link">Читать статью</a>
+              </div>
+          </article>
+          <article class="blog-card">
+              <div class="blog-card__img">
+                  <img src="img/placeholder.png" alt="Passive Income">
+              </div>
+              <div class="blog-card__content">
+                  <span class="blog-date">01.10.2025</span>
+                  <h3>Технология для пассивного дохода</h3>
+                  <a href="#" class="blog-link">Читать статью</a>
+              </div>
+          </article>
+      </div>
+  </div>
+</section>
+
+<section id="contact" class="contact section">
+  <div class="container contact__container">
+      <div class="contact__info">
+          <h2 class="contact__title">Готовы начать?</h2>
+          <p>Оставьте заявку на бесплатную консультацию. Наш эксперт свяжется с вами в течение 15 минут.</p>
+          <ul class="contact__list">
+              <li><i data-lucide="check-circle"></i> Индивидуальный разбор</li>
+              <li><i data-lucide="check-circle"></i> Доступ к демо-версии</li>
+              <li><i data-lucide="check-circle"></i> План развития</li>
+          </ul>
+      </div>
+
+      <form class="contact__form" id="contactForm" novalidate>
+          <div class="form-group">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" name="name" placeholder="Иван Петров" required>
+          </div>
+
+          <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="mail@example.com" required>
+          </div>
+
+          <div class="form-group">
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" name="phone" placeholder="Только цифры" required>
+          </div>
+
+          <div class="form-group captcha-group">
+              <label id="captchaLabel">Сколько будет 3 + 5?</label>
+              <input type="number" id="captchaInput" required>
+          </div>
+
+          <div class="form-checkbox">
+              <input type="checkbox" id="policy" required>
+              <label for="policy">Я согласен с <a href="privacy.html">Политикой конфиденциальности</a></label>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full">Получить доступ</button>
+          <div class="form-status"></div>
+      </form>
+  </div>
+</section>
     </main>
 
     <footer class="footer">
   <div class="container">
-    <div class="footer__grid">
-      <div class="footer__col">
-        <a href="/" class="footer__logo">
-          Mirra<span class="text-accent">Edge</span>
-        </a>
-        <p class="footer__desc">
-          Платформа года для тех, кто строит карьеру, которая работает на вас. Решения, которые меняют правила игры.
-        </p>
+      <div class="footer__grid">
+          <div class="footer__col">
+              <a href="/" class="footer__logo">Mirra<span class="text-accent">Edge</span></a>
+              <p class="footer__desc">
+                  Платформа года для тех, кто строит карьеру, которая работает на вас. Решения, которые меняют правила игры.
+              </p>
+          </div>
+          <div class="footer__col">
+              <h3 class="footer__title">Навигация</h3>
+              <ul class="footer__links">
+                  <li><a href="#methodology">Стратегия</a></li>
+                  <li><a href="#blog">Блог эксперта</a></li>
+                  <li><a href="#innovation">AI-инструменты</a></li>
+                  <li><a href="#contact">Консультация</a></li>
+              </ul>
+          </div>
+          <div class="footer__col">
+              <h3 class="footer__title">Информация</h3>
+              <ul class="footer__links">
+                  <li><a href="privacy.html">Privacy Policy</a></li>
+                  <li><a href="cookies.html">Cookie Policy</a></li>
+                  <li><a href="terms.html">Terms of Use</a></li>
+                  <li><a href="return.html">Return Policy</a></li>
+                  <li><a href="disclaimer.html">Disclaimer</a></li>
+                  <li><a href="personal-data-policy.html">Personal Data</a></li>
+              </ul>
+          </div>
+          <div class="footer__col">
+              <h3 class="footer__title">Контакты</h3>
+              <ul class="footer__contacts">
+                  <li><i data-lucide="map-pin" class="icon-sm"></i> <span>Via Alessandro Manzoni 12, 20121 Milano, Italy</span></li>
+                  <li><i data-lucide="phone" class="icon-sm"></i> <a href="tel:+390212345678">+39 02 1234 5678</a></li>
+                  <li><i data-lucide="mail" class="icon-sm"></i> <a href="mailto:hello@mirra-edge.blog">hello@mirra-edge.blog</a></li>
+              </ul>
+          </div>
       </div>
-
-      <div class="footer__col">
-        <h3 class="footer__title">Навигация</h3>
-        <ul class="footer__links">
-          <li><a href="#">Стратегия роста</a></li>
-          <li><a href="#blog">Блог эксперта</a></li>
-          <li><a href="#innovation">AI-инструменты</a></li>
-          <li><a href="#contact">Консультация</a></li>
-        </ul>
+      <div class="footer__bottom">
+          <p>&copy; 2025 Mirra-Edge. Проверенный партнер в вашем развитии.</p>
+          <p>Предложение активно только в странах ЕС.</p>
       </div>
-
-      <div class="footer__col">
-        <h3 class="footer__title">Информация</h3>
-        <ul class="footer__links">
-          <li><a href="privacy.html">Privacy Policy</a></li>
-          <li><a href="cookies.html">Cookie Policy</a></li>
-          <li><a href="terms.html">Terms of Use</a></li>
-          <li><a href="return.html">Return Policy</a></li>
-          <li><a href="disclaimer.html">Disclaimer</a></li>
-          <li><a href="personal-data-policy.html">Personal Data</a></li>
-        </ul>
-      </div>
-
-      <div class="footer__col">
-        <h3 class="footer__title">Контакты</h3>
-        <ul class="footer__contacts">
-          <li>
-            <i data-lucide="map-pin" class="icon-sm"></i>
-            <span>Via Alessandro Manzoni 12, 20121 Milano, Italy</span>
-          </li>
-          <li>
-            <i data-lucide="phone" class="icon-sm"></i>
-            <a href="tel:+390212345678">+39 02 1234 5678</a>
-          </li>
-          <li>
-            <i data-lucide="mail" class="icon-sm"></i>
-            <a href="mailto:hello@mirra-edge.blog">hello@mirra-edge.blog</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="footer__bottom">
-      <p>&copy; 2025 Mirra-Edge. Проверенный партнер в вашем развитии.</p>
-      <p>Предложение активно только в странах ЕС.</p>
-    </div>
   </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <div class="cookie-popup" id="cookiePopup">
+      <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.html">Cookie политике</a>.</p>
+      <button class="btn btn--small" id="acceptCookies">Принять</button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
     <script>
       lucide.createIcons();
     </script>
